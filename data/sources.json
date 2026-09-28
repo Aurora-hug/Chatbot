@@ -1,0 +1,18 @@
+{
+  "snapshot_date": "2026-09-29",
+  "timezone": "Pacific/Auckland",
+  "client_approval_status": "pending_confirmation",
+  "notes": "Public CMRFU pages and their linked official documents are candidate sources. Public availability does not imply client approval for the production index. The stadium domain is linked by CMRFU's Venue Hire navigation. Direct access to several cmrfu.co.nz pages returned HTTP 403 in the research environment; indexed page content was used only where the access field says indexed_excerpt.",
+  "sources": [
+    {"id":"J26","title":"CMRFU Junior Club Bylaws 2026","url":"https://d26phqdbpt0w91.cloudfront.net/NonVideo/cca9342d-9fd3-4aab-b411-a2d28a3b019e.pdf","parent_url":"https://www.cmrfu.co.nz/forms-and-documents","kind":"pdf","pages":16,"access":"document_read","topic":"junior_bylaws"},
+    {"id":"S26","title":"CMRFU Senior Club Bylaws 2026 (11 March)","url":"https://d26phqdbpt0w91.cloudfront.net/NonVideo/4386505f-9aac-42f7-90cf-1ffadb4f0253.pdf","parent_url":"https://www.cmrfu.co.nz/forms-and-documents","kind":"pdf","pages":16,"access":"document_read","topic":"senior_bylaws"},
+    {"id":"F26","title":"Forms & Documents","url":"https://www.cmrfu.co.nz/forms-and-documents","kind":"html","access":"page_read","topic":"documents"},
+    {"id":"SS26","title":"Secondary Schools Forms & Documents","url":"https://www.cmrfu.co.nz/ss-forms-and-documents","kind":"html","access":"indexed_excerpt","topic":"documents"},
+    {"id":"KD26","title":"Secondary School Key Dates 2026","url":"https://www.cmrfu.co.nz/ss-key-dates","kind":"html","access":"indexed_excerpt","topic":"events"},
+    {"id":"NPC26","title":"2026 NPC Fixtures","url":"https://www.cmrfu.co.nz/npc-fixtures","kind":"html","access":"indexed_excerpt","topic":"events"},
+    {"id":"VH","title":"Navigation Homes Stadium venue hire","url":"https://www.navigationhomesstadium.co.nz/","parent_url":"https://www.cmrfu.co.nz/forms-and-documents","kind":"html","access":"page_read","topic":"venue_hire"},
+    {"id":"PKJ","title":"Phil Kingsley Jones Lounge","url":"https://www.navigationhomesstadium.co.nz/pkj-lounge","kind":"html","access":"page_read","topic":"venue_hire"},
+    {"id":"CON","title":"Concerts at Navigation Homes Stadium","url":"https://www.navigationhomesstadium.co.nz/concerts","kind":"html","access":"page_read","topic":"venue_hire"},
+    {"id":"SPORT","title":"Sporting events at Navigation Homes Stadium","url":"https://www.navigationhomesstadium.co.nz/sports","kind":"html","access":"page_read","topic":"venue_hire"}
+  ]
+}
