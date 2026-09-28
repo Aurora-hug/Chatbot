@@ -25,6 +25,8 @@ MAX_BYTES = 8 * 1024 * 1024
 class PageText(HTMLParser):
     SKIP = {"script", "style", "svg", "nav", "footer", "header", "noscript"}
     BREAKS = {"p", "h1", "h2", "h3", "h4", "li", "tr", "td", "th", "br", "section"}
+    VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input",
+            "link", "meta", "param", "source", "track", "wbr"}
 
     def __init__(self):
         super().__init__()
@@ -33,7 +35,8 @@ class PageText(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         if self.skip_depth or tag in self.SKIP:
-            self.skip_depth += 1
+            if tag not in self.VOID:
+                self.skip_depth += 1
         elif tag in self.BREAKS:
             self.parts.append("\n")
 
